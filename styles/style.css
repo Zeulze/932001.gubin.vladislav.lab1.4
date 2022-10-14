@@ -213,6 +213,7 @@ body {
 
 @media screen and (max-width: 735px) {
     .container {
+        max-width: 500px;
         padding-left: 0;
     }
 
@@ -246,18 +247,10 @@ body {
     
         margin: 10px 0px 10px 10px;
     }
-
-    .right-sidebar {
-        display: inline-block;
-    }
 }
 
-@media screen and (max-width: 640px) {
-    .right-sidebar {
-        display: none;
-    }
-
+/* @media screen and (max-width: 640px) {
     .container {
         max-width: 500px;
     }
-}
+} */
